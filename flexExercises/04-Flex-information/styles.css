@@ -18,11 +18,13 @@ img {
   display: flex;
   justify-content: center;
   gap: 52px;
+  border: solid peachpuff;
  
 }
 
 .info{
   max-width: 200px;
+  border: solid peachpuff;
 }
 
 /* do not edit this footer */
