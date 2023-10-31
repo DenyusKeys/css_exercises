@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //get users input
+        let x = prompt("enter a number");
+        //print numbers from one to user input
+        for(let i = 1; i <= x; i++){
+            if((i % 5 == 0 && i % 3 == 0)){
+                console.log("FizzBuzz");
+            } else if(i % 3 == 0) {
+                console.log("Fizz");
+            } else if(i % 5 == 0) {
+                console.log("Buzz");
+            } else {
+                console.log(i);
+            }
+        }
+        //if number is multiple of 3 print Fizz instead of number
+        //if multiple of 5 print Buzz
+        //if multiple of 3 and 5 then print FizzBuzz
+
+    </script>
+</body>
+</html>
