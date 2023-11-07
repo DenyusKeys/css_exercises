@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //prompt user for number greater than 100
+        let y = true;
+        while(y == true){
+            let x = +prompt("Enter a number greater than 100");
+            
+            if(x == ""){
+                y = false;
+                break;
+            } else if(x > 100){
+                continue;
+            } else {
+                alert("Must be a number greater than 100");
+                continue;
+            }
+           
+        }
+
+        alert("Congrats you did it");
+        //if number < 100 ask for input again
+
+        //empty line = break;
+
+
+
+    </script>
+</body>
+</html>
